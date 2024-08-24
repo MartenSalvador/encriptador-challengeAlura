@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Icon" type="Icon" href="imagenes/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    
+    <!--Encabezado -->
+    <header>
+        <a href="#" rel="">
+            <img src="imagenes/logo.svg" alt="Logo Alura" class="logo">
+        </a>
+    </header>
+
+    <!--Seccion principal -->
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+           
+            <div class="encriptador-aviso">
+                <img src="imagenes/aviso.svg" class="image-aviso" alt="Imagen aviso">
+                <p class="texto-aviso" >Solo letras minúsculas y sin acentos</p>
+            </div>
+
+            <div class="encriptador-contenedor">
+                <button type="submit" class="btn-encriptar">Encriptar</button>
+                <button type="submit" class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="tarjeta">
+
+            <div class="tarjeta-contenedor">
+                <img src="imagenes/muñeco.svg" class="image-muñeco" alt="Imagen Muñeco">
+                <p class="texto-1">Ningún mensaje fue encontrado</p>
+                <p class="texto-2">Ingrese el texto que desee encriptar o desencriptar</p>
+            </div>
+
+            <textarea type="mensaje" class="evaluar" readonly></textarea>
+            <button type="submit" class="btn-copiar">Copiar</button>
+        </section>
+
+    </main>
+
+    <!--Pie de pagina-->
+    <footer>
+        <p class="copyright">&copy; copyright 2024 - Encriptador de texto - desarrollado por Martin Salvador</p>
+        <a href="https://www.linkedin.com/in/martinandressalvador/" target="_blank">
+            <img src="imagenes/linkedin.svg" alt="Logo Linkedin" class="linkedin">
+        </a>
+        <a href="https://github.com/MartenSalvador/" target="_blank">
+            <img src="imagenes/github.svg" alt="Logo GitHub" class="git">
+        </a>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
